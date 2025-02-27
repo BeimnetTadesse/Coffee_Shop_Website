@@ -1,0 +1,20 @@
+@import "tailwindcss"; 
+ 
+  @layer utilities {
+    body {
+        @apply bg-white;
+    }
+    .img-shadow {
+        filter : drop-shadow(40px 50px 25px #0f1115)
+    }
+    .img-shadow2 {
+        filter : drop-shadow(10px 30px 15px #3030307a)
+    }
+    .input-style {
+      @apply px-4 py-2 border-[1px] border-gray-400 rounded-md;
+    }
+  
+    .primary-btn {
+      @apply bg-[#f19509] text-white px-4 py-2 rounded-md hover:bg-[#e86f00] duration-200;
+    }
+  }
