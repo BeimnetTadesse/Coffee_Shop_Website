@@ -38,7 +38,5 @@ A modern web app for a coffee shop, built with **React**, **Tailwind CSS**, **Vi
 npm run build
 ```
 
-## License
 
-MIT License.
 
